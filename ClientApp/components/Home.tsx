@@ -1,20 +1,12 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
-
-type HomepageComponentState = {}
-type HomepageComponentProps = {}
-
-export class HomepageComponent extends React.Component<HomepageComponentProps, HomepageComponentState> {
-    constructor(props: HomepageComponentProps, context: any) {
-        super(props, context)
-        this.state = {}}
-    
+import { RouteComponentProps } from 'react-router';
 
 
-render(){
-    return <div>
-        <h1>Kip</h1>
-        </div>
- 
-}
+export class Home extends React.Component<RouteComponentProps<{}>, {}> {
+    public render() {
+        return <div>
+          
+       </div>;
+    }
 }
