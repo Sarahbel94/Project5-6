@@ -9,8 +9,7 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "strict": true,
-    "types": ["webpack-env"],
-    "skipLibCheck": true
+    "types": ["webpack-env"]
   },
   "exclude": [
       "bin",
