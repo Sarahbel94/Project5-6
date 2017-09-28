@@ -9,10 +9,49 @@ export class VrouwSchoenen extends React.Component<RouteComponentProps<{}>, Vrou
         super();
         this.state = {}
     }
-
+    // Hoge en enkellaarzen
+    // Platte schoenen
+    // Schoenen met hakken
+    // Sandalen
+    // Sneakers
     public render() {
 
         return <div> <h1> Vrouwen Schoenen</h1>
+            <li> 
+                <NavLink to={'/Hakke'} >
+               
+                 Schoenen met hakken!
+                 
+                </NavLink>
+            </li>
+        
+            <li>
+                <NavLink to={'/Hakke'} >
+               
+                    Hoge en enkellaarzen
+                </NavLink>
+            </li>
+
+            <li>
+                <NavLink to={'/Hakke'} activeClassName='active'>
+               
+                    Platte schoenen
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to={'/Hakke'} activeClassName='active'>
+               
+                    Sandalen
+                </NavLink>
+            </li>
+
+            <li>
+                <NavLink to={'/Hakke'} activeClassName='active'>
+               
+                    Sneakers
+                </NavLink>
+            </li>
+
 
             <h3>{Types.Shoes1.Name} </h3>
             <img src={Types.Shoes1.Image} width="250" height="250" />
@@ -31,7 +70,7 @@ export class VrouwSchoenen extends React.Component<RouteComponentProps<{}>, Vrou
                     <button> Lees meer!</button>
                 </NavLink>
             </li>
-
+           
 
         </div>
     }

@@ -7,7 +7,7 @@ import { VrouwSchoenen } from './components/VrouwSchoenen';
 import { Schoenen } from './components/Schoenen';
 import { DetailPagina } from './components/DetailPagina';
 import { Confirmation } from './components/Confirmation';
-// import { DetailPaginaHak } from './components/DetailPaginaHak';
+import { Hakke } from './components/Hakke';
 
 export const routes = <Layout>
     <Route exact path='/' component={ Home } />
@@ -16,6 +16,6 @@ export const routes = <Layout>
     <Route path='/schoenen' component={ Schoenen } />
     <Route path='/confirmation' component={ Confirmation } />
     <Route path='/detailpagina' component={ DetailPagina } />
-    {/* <Route path='/detailpaginahak' component={ DetailPaginaHak } /> */}
+    <Route path='/hakke' component={ Hakke } /> 
 </Layout>;
 
