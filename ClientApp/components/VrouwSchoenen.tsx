@@ -16,7 +16,7 @@ export class VrouwSchoenen extends React.Component<RouteComponentProps<{}>, Vrou
     // Sneakers
     public render() {
 
-        return <div> <h1> Vrouwen Schoenen</h1>
+        return <div className='body_content'> <h1> Vrouwen Schoenen</h1>
             <li> 
                 <NavLink to={'/Hakke'} >
                

@@ -34,10 +34,12 @@ body{
     border: 1px solid black;
 }
 .body_containter{
-    height: 400px;
+    /* height: 400px; */
+    min-height: 500px;
     width: 100%;
     background-color:rgba(255, 0, 0, 0.4);
     border: 1px solid black;
+    position: relative;
 }
 .footer_container{
     height: 40px;
@@ -46,6 +48,16 @@ body{
     border: 1px solid black;
 }
 
+
+
+.menu_button{
+    height: 40px;
+    width: 70px;
+    float:left;
+}
+.body_content{
+    position: relative;
+}
 
 
 
