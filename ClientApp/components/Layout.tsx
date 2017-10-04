@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { NavMenu } from './NavMenu';
+// import { NavMenu } from './NavMenu';
 import { Footer } from './Footer';
 import { Header } from './Header';
 
@@ -14,9 +14,9 @@ export class Layout extends React.Component<LayoutProps, {}> {
                 <div className='header_top'>
                     <Header />
                 </div>
-                <div className='header_bottom'>
+                {/* <div className='header_bottom'>
                     <NavMenu />
-                </div>
+                </div> */}
             </div>
             <div className='body_containter'>
                 { this.props.children }
