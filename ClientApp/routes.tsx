@@ -8,6 +8,7 @@ import { Schoenen } from './components/Schoenen';
 import { DetailPagina } from './components/DetailPagina';
 import { Confirmation } from './components/Confirmation';
 import { Hakke } from './components/Hakke';
+import { Registratie} from './components/Registratie';
 
 export const routes = <Layout>
     <Route exact path='/' component={ Home } />
@@ -17,5 +18,6 @@ export const routes = <Layout>
     <Route path='/confirmation' component={ Confirmation } />
     <Route path='/detailpagina' component={ DetailPagina } />
     <Route path='/hakke' component={ Hakke } /> 
+    <Route path='/registratie' component={ Registratie } /> 
 </Layout>;
 
