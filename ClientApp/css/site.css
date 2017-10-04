@@ -75,11 +75,7 @@ body{
     height: 50px;
     padding-left: 40px
 }
-.menu_button{
-    height: 40px;
-    width: 70px;
-    float:left;
-}
+
 .body_content{
     position: relative;
 }
