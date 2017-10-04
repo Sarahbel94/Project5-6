@@ -5,6 +5,7 @@
   "devDependencies": {
     "@types/history": "4.6.0",
     "@types/react": "15.0.35",
+    "@types/react-bootstrap": "^0.31.4",
     "@types/react-dom": "15.5.1",
     "@types/react-hot-loader": "3.0.3",
     "@types/react-router": "4.0.12",
@@ -31,5 +32,10 @@
     "url-loader": "0.5.9",
     "webpack": "https://registry.npmjs.org/webpack/-/webpack-2.5.1.tgz",
     "webpack-hot-middleware": "2.18.2"
+  },
+  "dependencies": {
+    "react": "https://registry.npmjs.org/react/-/react-15.6.1.tgz",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "https://registry.npmjs.org/react-dom/-/react-dom-15.6.1.tgz"
   }
 }
