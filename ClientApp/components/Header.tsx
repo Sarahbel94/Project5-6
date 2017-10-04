@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
+import {Navbar, Nav, NavItem, NavDropdown, MenuItem, DropdownButton} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 
@@ -26,12 +26,12 @@ export class Header extends React.Component<{}, {}> {
       </Nav>
       <Nav pullRight>
         <NavItem eventKey={1} href="/">Welcome, Username56!</NavItem>
-        <NavDropdown eventKey={2} title="Username56" id="dropdown-settings">
+        <DropdownButton title="Username56" id="dropdown-settings">
           <MenuItem eventKey={2.1}>My Wishlist</MenuItem>
           <MenuItem eventKey={2.2}>Account Settings</MenuItem>
           <MenuItem divider />
           <MenuItem eventKey={2.3}>Log Out</MenuItem>
-        </NavDropdown>
+        </DropdownButton>
       </Nav>
     </Navbar.Collapse>
   </Navbar>;

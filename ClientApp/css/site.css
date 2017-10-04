@@ -4,3 +4,89 @@
     display: flex;
     align-items: center;
   }
+
+  .navbar-brand>img {
+    padding-right: 5px;
+  }
+
+.main_container {
+    background-color: #0E0B16;
+}
+
+.navbar-inverse {
+    background-color: #0E0B16 !important;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+    border-radius: 0px !important;
+    background-image: linear-gradient(to bottom, #070608 0%, #070608 100%) !important;
+}
+
+.navbar-nav > li > .dropdown-menu, .dropdown-menu {
+    background-color: #0E0B16 !important;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+    border-radius: 0px !important;
+    background-image: linear-gradient(to bottom, #070608 0%, #070608 100%) !important;  
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #120E1D !important;
+    background-image: linear-gradient(to bottom, #120E1D 0%, #120E1D 100%) !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand  {
+    color: #3725F7;
+}
+
+.navbar-inverse .navbar-brand:hover  {
+    color: #4333F8;
+}
+
+.dropdown-menu .divider {
+    color: 1px solid rgba(217, 217, 217, 0.2) !important;
+    background-color: 1px solid rgba(217, 217, 217, 0.2) !important;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #fff;
+}
+
+.btn-group > .btn:first-child {
+    margin-top: 8px;
+}
+
+.btn-default {
+    text-shadow: 0 0px 0 !important;
+    color: #fff !important;
+    background-image: linear-gradient(to bottom, #A239CA 0%, #A239CA 100%) !important;
+    border-radius: 0px !important;
+    border-color: #A543CC !important;
+}
+
+.btn-primary {
+    text-shadow: 0 0px 0 !important;
+    color: #fff !important;
+    background-image: linear-gradient(to bottom, #3725F7 0%, #3725F7 100%) !important;
+    border-radius: 0px !important;
+    border-color: #4333F8 !important;
+}
+
+.btn-default:hover, .btn-default:focus {
+    background-position: 0 0px !important;
+}
+
+.thumbnail {
+    border-radius: 0px !important;
+    background-color: #070608;
+    border: 1px solid rgba(217, 217, 217, 0.2);
+}
+
+h3, .h3, p {
+    color: #E7DFDD;
+}
