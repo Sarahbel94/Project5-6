@@ -19,31 +19,31 @@ export class VrouwSchoenen extends React.Component<RouteComponentProps<{}>, Vrou
             <h3>VrouwSchoenen</h3>
             <Row>
             <Col xs={4} md={4}>
-                <Thumbnail src={Types.Shoes1.Image} alt="Image Load Failed">
+            <a href='/detailpagina'><Thumbnail src={Types.Shoes1.Image} alt="Image Load Failed">
                 <h3>{Types.Shoes1.Name}</h3>
                 <p>€{Types.Shoes1.Price}.00</p>
                 <p>
-                <Button href='/detailpagina' bsStyle="primary">Main Button</Button>
+                <Button href='/detailpagina' bsStyle="primary">Details</Button>
                 </p>
-                </Thumbnail>
+                </Thumbnail></a>
             </Col>
             <Col xs={4} md={4}>
-            <Thumbnail src={Types.Shoes2.Image} alt="Image Load Failed">
+            <a href='/detailpagina'><Thumbnail src={Types.Shoes2.Image} alt="Image Load Failed">
             <h3>{Types.Shoes2.Name}</h3>
             <p>€{Types.Shoes2.Price}.00</p>
                 <p>
-                <Button href='/detailpagina' bsStyle="primary">Main Button</Button>
+                <Button href='/detailpagina' bsStyle="primary">Details</Button>
                 </p>
-                </Thumbnail>
+                </Thumbnail></a>
             </Col>
             <Col xs={4} md={4}>
-            <Thumbnail src={Types.Shoes2.Image} alt="Image Load Failed">
+            <a href='/detailpagina'><Thumbnail src={Types.Shoes2.Image} alt="Image Load Failed">
             <h3>{Types.Shoes2.Name}</h3>
             <p>€{Types.Shoes2.Price}.00</p>
                 <p>
-                <Button href='/detailpagina' bsStyle="primary">Main Button</Button>
+                <Button href='/detailpagina' bsStyle="primary">Details</Button>
                 </p>
-                </Thumbnail>
+                </Thumbnail></a>
             </Col>
             </Row>
         </div>

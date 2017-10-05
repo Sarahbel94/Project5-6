@@ -11,67 +11,61 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
           <h1> new arrivals</h1>
   <Row>
   <Col xs={4} md={4}>
-    <Thumbnail src={Types.Shoes0.Image} alt="Image Load Failed">
+    <a href='/detailpagina'><Thumbnail src={Types.Shoes0.Image} alt="Image Load Failed">
       <h3>{Types.Shoes0.Name}</h3>
       <p>€{Types.Shoes0.Price}.00</p>
       <p>
-      <Button bsStyle="primary">Main Button</Button>&nbsp;
-      <Button bsStyle="default">Sub Button</Button>
+      <Button href='/detailpagina' bsStyle="primary">Details</Button>
       </p>
-    </Thumbnail>
+    </Thumbnail></a>
   </Col>
   <Col xs={4} md={4}>
-  <Thumbnail src={Types.Shoes1.Image} alt="Image Load Failed">
+  <a href='/detailpagina'><Thumbnail src={Types.Shoes1.Image} alt="Image Load Failed">
   <h3>{Types.Shoes1.Name}</h3>
   <p>€{Types.Shoes1.Price}.00</p>
       <p>
-      <Button bsStyle="primary">Main Button</Button>&nbsp;
-      <Button bsStyle="default">Sub Button</Button>
+      <Button href='/detailpagina' bsStyle="primary">Details</Button>
       </p>
-    </Thumbnail>
+    </Thumbnail></a>
   </Col>
   <Col xs={4} md={4}>
-  <Thumbnail src={Types.Shoes2.Image} alt="Image Load Failed">
+  <a href='/detailpagina'><Thumbnail src={Types.Shoes2.Image} alt="Image Load Failed">
   <h3>{Types.Shoes2.Name}</h3>
   <p>€{Types.Shoes2.Price}.00</p>
       <p>
-      <Button bsStyle="primary">Main Button</Button>&nbsp;
-      <Button bsStyle="default">Sub Button</Button>
+      <Button href='/detailpagina' bsStyle="primary">Details</Button>
       </p>
-    </Thumbnail>
+    </Thumbnail></a>
   </Col>
   </Row>
   <h1> Populair shoes</h1>
   <Row>
   <Col xs={4} md={4}>
-  <Thumbnail src={Types.Shoes3.Image} alt="Image Load Failed">
+  <a href='/detailpagina'><Thumbnail src={Types.Shoes3.Image} alt="Image Load Failed">
   <h3>{Types.Shoes3.Name}</h3>
   <p>€{Types.Shoes3.Price}.00</p>
       <p>
-      <Button bsStyle="primary">Main Button</Button>&nbsp;
-      <Button bsStyle="default">Sub Button</Button>
+      <Button href='/detailpagina' bsStyle="primary">Details</Button>
       </p>
-    </Thumbnail>
+    </Thumbnail></a>
   </Col>
   <Col xs={4} md={4}>
-  <Thumbnail src={Types.Shoes2.Image} alt="Image Load Failed">
+  <a href='/detailpagina'><Thumbnail src={Types.Shoes2.Image} alt="Image Load Failed">
   <h3>{Types.Shoes2.Name}</h3>
   <p>€{Types.Shoes2.Price}.00</p>
       <p>
-      <Button bsStyle="primary">Main Button</Button>&nbsp;
-      <Button bsStyle="default">Sub Button</Button>
+      <Button href='/detailpagina' bsStyle="primary">Details</Button>
       </p>
-    </Thumbnail>
+    </Thumbnail></a>
   </Col>
   <Col xs={4} md={4}>
-  <Thumbnail src={Types.Shoes1.Image} alt="Image Load Failed">
+  <a href='/detailpagina'><Thumbnail src={Types.Shoes1.Image} alt="Image Load Failed">
   <h3>{Types.Shoes1.Name}</h3>
   <p>€{Types.Shoes1.Price}.00</p>
       <p>
-      <Button bsStyle="primary">Main Button</Button>&nbsp;
-      <Button bsStyle="default">Sub Button</Button>
+      <Button href='/detailpagina' bsStyle="primary">Details</Button>
       </p>
-    </Thumbnail>
+    </Thumbnail></a>
   </Col>
   </Row>
 </Grid></div>;
