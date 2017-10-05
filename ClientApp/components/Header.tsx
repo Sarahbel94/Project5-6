@@ -2,7 +2,11 @@ import * as React from 'react';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem, DropdownButton, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+<<<<<<< HEAD
 import { Link, NavLink } from 'react-router-dom';
+=======
+import {NavLink} from 'react-router-dom'
+>>>>>>> 79533a6eac3f57798c5d9122f2de51d76d03cba0
 
 export class Header extends React.Component<{}, {}> {
     public render() {
@@ -15,15 +19,31 @@ export class Header extends React.Component<{}, {}> {
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-        <a href='/VrouwSchoenen'>woman</a>  
-        <NavItem eventKey={1} href="/VrouwSchoenen">Men</NavItem>
-        <NavItem eventKey={2} href="/">Women</NavItem>
-        <NavDropdown eventKey={3} title="Categories" id="dropdown-categories">
-          <MenuItem eventKey={3.1}>Sport</MenuItem>
-          <MenuItem eventKey={3.2}>Outdoor</MenuItem>
-          <MenuItem eventKey={3.3}>Casual</MenuItem>
+      <NavDropdown eventKey={1} title="Men" id="dropdown-categories">
+          <MenuItem eventKey={1.1}><NavLink to={ '/Casual' } activeClassName='active'>
+          Casual 
+                </NavLink></MenuItem>
+          <MenuItem eventKey={1.2}><NavLink to={ '/Beach' } activeClassName='active'>
+          Beach 
+                </NavLink></MenuItem>
+          <MenuItem eventKey={1.3}><NavLink to={ '/Formal' } activeClassName='active'>
+          Formal 
+                </NavLink></MenuItem>
           <MenuItem divider />
-          <MenuItem eventKey={3.3}>Separated link</MenuItem>
+          <MenuItem eventKey={1.4}>Placeholder</MenuItem>
+        </NavDropdown>
+        <NavDropdown eventKey={2} title="Women" id="dropdown-categories">
+          <MenuItem eventKey={2.1}><NavLink to={ '/Casual' } activeClassName='active'>
+          Casual 
+                </NavLink></MenuItem>
+          <MenuItem eventKey={2.2}><NavLink to={ '/Beach' } activeClassName='active'>
+          Beach 
+                </NavLink></MenuItem>
+          <MenuItem eventKey={2.3}><NavLink to={ '/Formal' } activeClassName='active'>
+          Formal 
+                </NavLink></MenuItem>
+          <MenuItem divider />
+          <MenuItem eventKey={2.4}>Separated link</MenuItem>
         </NavDropdown>
       </Nav>
       <Nav pullRight>
@@ -38,7 +58,7 @@ export class Header extends React.Component<{}, {}> {
           <MenuItem > eventKey={4.3}>Log Out</MenuItem>
          
         </NavDropdown>
-        <Button href="/" bsStyle="default" >Shopping Cart</Button>
+        <Button href="/Confirmation" bsStyle="default" >Shopping Cart</Button>
       </Nav>
     </Navbar.Collapse>
   </Navbar>;
