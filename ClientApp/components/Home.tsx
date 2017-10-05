@@ -54,9 +54,9 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
     </Thumbnail>
   </Col>
   <Col xs={4} md={4}>
-  <Thumbnail src={Types.Shoes4.Image} alt="Image Load Failed">
-  <h3>{Types.Shoes4.Name}</h3>
-  <p>€{Types.Shoes4.Price}.00</p>
+  <Thumbnail src={Types.Shoes2.Image} alt="Image Load Failed">
+  <h3>{Types.Shoes2.Name}</h3>
+  <p>€{Types.Shoes2.Price}.00</p>
       <p>
       <Button bsStyle="primary">Main Button</Button>&nbsp;
       <Button bsStyle="default">Sub Button</Button>
@@ -64,9 +64,9 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
     </Thumbnail>
   </Col>
   <Col xs={4} md={4}>
-  <Thumbnail src={Types.Shoes5.Image} alt="Image Load Failed">
-  <h3>{Types.Shoes5.Name}</h3>
-  <p>€{Types.Shoes5.Price}.00</p>
+  <Thumbnail src={Types.Shoes1.Image} alt="Image Load Failed">
+  <h3>{Types.Shoes1.Name}</h3>
+  <p>€{Types.Shoes1.Price}.00</p>
       <p>
       <Button bsStyle="primary">Main Button</Button>&nbsp;
       <Button bsStyle="default">Sub Button</Button>
