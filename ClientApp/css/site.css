@@ -1,66 +1,92 @@
-.main-nav li .glyphicon {
-    margin-right: 10px;
+/* Hier komen css overrides te staan voor Bootstrap */
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-brand>img {
+    padding-right: 5px;
+  }
+
+.main_container {
+    background-color: #0E0B16;
 }
 
-/* Highlighting rules for nav menu items */
-.main-nav li a.active,
-.main-nav li a.active:hover,
-.main-nav li a.active:focus {
-    background-color: #4189C7;
-    color: white;
+.navbar-inverse {
+    background-color: #0E0B16 !important;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+    border-radius: 0px !important;
+    background-image: linear-gradient(to bottom, #070608 0%, #070608 100%) !important;
 }
 
-/* Keep the nav menu independent of scrolling and on top of other items */
-.main-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
+.navbar-nav > li > .dropdown-menu, .dropdown-menu {
+    background-color: #0E0B16 !important;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.2);
+    border-radius: 0px !important;
+    background-image: linear-gradient(to bottom, #070608 0%, #070608 100%) !important;  
 }
 
-@media (max-width: 767px) {
-    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
-    body {
-        padding-top: 50px;
-    }
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #120E1D !important;
+    background-image: linear-gradient(to bottom, #120E1D 0%, #120E1D 100%) !important;
 }
 
-@media (min-width: 768px) {
-    /* On small screens, convert the nav menu to a vertical sidebar */
-    .main-nav {
-        height: 100%;
-        width: calc(25% - 20px);
-    }
-    .main-nav .navbar {
-        border-radius: 0px;
-        border-width: 0px;
-        height: 100%;
-    }
-    .main-nav .navbar-header {
-        float: none;
-    }
-    .main-nav .navbar-collapse {
-        border-top: 1px solid #444;
-        padding: 0px;
-    }
-    .main-nav .navbar ul {
-        float: none;
-    }
-    .main-nav .navbar li {
-        float: none;
-        font-size: 15px;
-        margin: 6px;
-    }
-    .main-nav .navbar li a {
-        padding: 10px 16px;
-        border-radius: 4px;
-    }
-    .main-nav .navbar a {
-        /* If a menu item's text is too long, truncate it */
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-brand  {
+    color: #3725F7;
+}
+
+.navbar-inverse .navbar-brand:hover  {
+    color: #4333F8;
+}
+
+.dropdown-menu .divider {
+    color: 1px solid rgba(217, 217, 217, 0.2) !important;
+    background-color: 1px solid rgba(217, 217, 217, 0.2) !important;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #fff;
+}
+
+.btn-group > .btn:first-child {
+    margin-top: 8px;
+}
+
+.btn-default {
+    text-shadow: 0 0px 0 !important;
+    color: #fff !important;
+    background-image: linear-gradient(to bottom, #A239CA 0%, #A239CA 100%) !important;
+    border-radius: 0px !important;
+    border-color: #A543CC !important;
+}
+
+.btn-primary {
+    text-shadow: 0 0px 0 !important;
+    color: #fff !important;
+    background-image: linear-gradient(to bottom, #3725F7 0%, #3725F7 100%) !important;
+    border-radius: 0px !important;
+    border-color: #4333F8 !important;
+}
+
+.btn-default:hover, .btn-default:focus {
+    background-position: 0 0px !important;
+}
+
+.thumbnail {
+    border-radius: 0px !important;
+    background-color: #070608;
+    border: 1px solid rgba(217, 217, 217, 0.2);
+}
+
+h3, .h3, p {
+    color: #E7DFDD;
 }

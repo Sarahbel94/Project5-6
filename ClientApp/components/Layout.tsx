@@ -1,5 +1,7 @@
 import * as React from 'react';
-import { NavMenu } from './NavMenu';
+// import { NavMenu } from './NavMenu';
+import { Footer } from './Footer';
+import { Header } from './Header';
 
 export interface LayoutProps {
     children?: React.ReactNode;
@@ -7,15 +9,21 @@ export interface LayoutProps {
 
 export class Layout extends React.Component<LayoutProps, {}> {
     public render() {
-        return <div className='container-fluid'>
-            <div className='row'>
-                <div className='col-sm-3'>
+        return <div className='main_container'>
+            <div className='header_container'>
+                <div className='header_top'>
+                    <Header />
+                </div>
+                {/* <div className='header_bottom'>
                     <NavMenu />
-                </div>
-                <div className='col-sm-9'>
-                    { this.props.children }
-                </div>
+                </div> */}
             </div>
+            <div className='body_containter'>
+                { this.props.children }
+            </div>
+            <div className='footer_container'>
+                <Footer />
+            </div>     
         </div>;
     }
 }
