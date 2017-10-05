@@ -2,11 +2,7 @@ import * as React from 'react';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem, DropdownButton, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
-<<<<<<< HEAD
 import { Link, NavLink } from 'react-router-dom';
-=======
-import {NavLink} from 'react-router-dom'
->>>>>>> 79533a6eac3f57798c5d9122f2de51d76d03cba0
 
 export class Header extends React.Component<{}, {}> {
     public render() {
@@ -55,7 +51,7 @@ export class Header extends React.Component<{}, {}> {
                 </MenuItem>
           <MenuItem eventKey={4.2}>Account Settings</MenuItem>
           <MenuItem divider />
-          <MenuItem > eventKey={4.3}>Log Out</MenuItem>
+          <MenuItem eventKey={4.3}>Log Out</MenuItem>
          
         </NavDropdown>
         <Button href="/Confirmation" bsStyle="default" >Shopping Cart</Button>
