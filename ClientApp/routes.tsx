@@ -25,5 +25,6 @@ export const routes =
     <Route path='/wishlist' component={ Wishlist }/> 
     <Route path='/werk' component={ Formal } />
     <Route path='/beach' component={ Beach } />
-    <Route path='/casual' component={ Casual } />   
+    <Route path='/casual' component={ Casual } />  
+    <Route path='/Formal' component={ Formal } />  
 </Layout>;
