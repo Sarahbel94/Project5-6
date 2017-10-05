@@ -8,14 +8,16 @@ import { Schoenen } from './components/Schoenen';
 import { DetailPagina } from './components/DetailPagina';
 import { Confirmation } from './components/Confirmation';
 import { Hakke } from './components/Hakke';
+import { Wishlist } from './components/Wishlist';
 
-export const routes = <Layout>
+export const routes = 
+<Layout>
     <Route exact path='/' component={ Home } />
-    <Route path='/VrouwSchoenen' component={ VrouwSchoenen } />
-    <Route path='/ManSchoenen' component={ ManSchoenen } />
-    <Route path='/schoenen' component={ Schoenen } />
-    <Route path='/confirmation' component={ Confirmation } />
-    <Route path='/detailpagina' component={ DetailPagina } />
-    <Route path='/hakke' component={ Hakke } /> 
+    <Route path='/VrouwSchoenen' component={ VrouwSchoenen }/>
+    <Route path='/ManSchoenen' component={ ManSchoenen }/>
+    <Route path='/schoenen' component={ Schoenen }/>
+    <Route path='/confirmation' component={ Confirmation }/>
+    <Route path='/detailpagina' component={ DetailPagina }/>
+    <Route path='/hakke' component={ Hakke }/> 
+    <Route path='/wishlist' component={ Wishlist }/> 
 </Layout>;
-

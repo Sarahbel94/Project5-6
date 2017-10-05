@@ -2,7 +2,7 @@ import * as React from 'react';
 import { RouteComponentProps } from 'react-router';
 import * as Types from './custom_types'
 import { Link, NavLink } from 'react-router-dom';
-// import { addUrlProps, UrlQueryParamTypes } from 'react-url-query';
+
 type DetailPaginaState = {}
 
 
@@ -30,6 +30,9 @@ export class DetailPagina extends React.Component<RouteComponentProps<{}>, Detai
             <div>{Types.Shoes1.Size} </div>
 
             <NavLink to={'/confirmation'} activeClassName='active'>
+                <button  > Bestel NU!</button>
+            </NavLink>
+            <NavLink to={'/wishlist'} activeClassName='active'>
                 <button> Bestel NU!</button>
             </NavLink>
         </div>
