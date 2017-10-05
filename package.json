@@ -23,8 +23,8 @@
     "jquery": "3.2.1",
     "json-loader": "0.5.4",
     "npm-install-webpack-plugin": "^4.0.5",
-    "react": "15.6.1",
-    "react-dom": "15.6.1",
+    "react": "https://registry.npmjs.org/react/-/react-15.6.1.tgz",
+    "react-dom": "https://registry.npmjs.org/react-dom/-/react-dom-15.6.1.tgz",
     "react-hot-loader": "3.0.0-beta.7",
     "react-router-dom": "4.1.1",
     "style-loader": "0.18.2",
@@ -34,9 +34,7 @@
     "webpack-hot-middleware": "2.18.2"
   },
   "dependencies": {
-    "react": "https://registry.npmjs.org/react/-/react-15.6.1.tgz",
     "react-bootstrap": "^0.31.3",
-    "react-dom": "https://registry.npmjs.org/react-dom/-/react-dom-15.6.1.tgz",
     "react-router": "https://registry.npmjs.org/react-router/-/react-router-4.1.1.tgz",
     "react-url-query": "https://registry.npmjs.org/react-url-query/-/react-url-query-1.2.0.tgz"
   }
