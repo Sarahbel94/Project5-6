@@ -16,6 +16,7 @@ export class Formal extends React.Component<RouteComponentProps<{}>, FormalSchoe
     public render() {
 
         return <div> <h1> Formal</h1>
+        <Grid>
         <Row>
             <Col xs={4} md={4}>
                 <h3>{Types.Shoes12.Name} </h3>
@@ -60,6 +61,7 @@ export class Formal extends React.Component<RouteComponentProps<{}>, FormalSchoe
                 </li>
                 </Col>
             </Row>
+            </Grid>
         </div>
     }
 

@@ -22,6 +22,7 @@ export const routes = <Layout>
     <Route path='/hakke' component={ Hakke } /> 
     <Route path='/werk' component={ Formal } />
     <Route path='/beach' component={ Beach } />
-    <Route path='/casual' component={ Casual } />   
+    <Route path='/casual' component={ Casual } />  
+    <Route path='/Formal' component={ Formal } />  
 </Layout>;
 
