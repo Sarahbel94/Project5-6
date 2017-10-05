@@ -38,7 +38,7 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
     </Thumbnail></a>
   </Col>
   </Row>
-  <h1> Populair shoes</h1>
+  <h1>Most wanted</h1>
   <Row>
   <Col xs={4} md={4}>
   <a href='/detailpagina'><Thumbnail src={Types.Shoes3.Image} alt="Image Load Failed">

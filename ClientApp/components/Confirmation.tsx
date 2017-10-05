@@ -10,7 +10,7 @@ var buttonStyle = {
 
 export class Confirmation extends React.Component<RouteComponentProps<{}>, {}> {
     public render() {
-        return <div className='confirm_placeholder'> <h1>Uw order</h1>
+        return <div className='confirm_placeholder'> <h1>Winkelmandje</h1>
         <h3>{Types.Shoes1.Name} </h3>
             <h4>aantal: 1</h4>
             <img src={Types.Shoes1.Image} width="250" height="250" />
