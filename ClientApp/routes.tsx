@@ -12,6 +12,7 @@ import { Wishlist } from './components/Wishlist';
 import { Formal } from './components/Formal';
 import { Casual } from './components/Casual'; 
 import { Beach } from './components/Beach';
+import Product from './components/product';
 
 export const routes = 
 <Layout>
@@ -26,5 +27,6 @@ export const routes =
     <Route path='/werk' component={ Formal } />
     <Route path='/beach' component={ Beach } />
     <Route path='/casual' component={ Casual } />  
-    <Route path='/Formal' component={ Formal } />  
+    <Route path='/Formal' component={ Formal } /> 
+    <Route path='/product' component={ Product } />
 </Layout>;
