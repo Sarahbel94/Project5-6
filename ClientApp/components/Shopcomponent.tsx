@@ -36,7 +36,7 @@ const Shopcomponent = (props: any) => {
             <Col xs={6} md={6}>
             <Media>
             <Media.Left>
-               <img width={150} height={150} src={Shoe.image} alt="Image"/>
+               <img width={150} height={180} src={Shoe.image} alt="Image"/>
              </Media.Left>
              <Media.Body>
                <Media.Heading>{Shoe.name} • €{Shoe.price}</Media.Heading>
