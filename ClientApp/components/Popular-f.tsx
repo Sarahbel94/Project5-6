@@ -5,9 +5,9 @@ import { RouteComponentProps } from 'react-router';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import {ButtonToolbar, Button, Grid, Row, Col, Image, Thumbnail } from 'react-bootstrap';
-type FormalSchoenenState = {}
+type PopularSchoenenState = {}
 
-export class Formal extends React.Component<RouteComponentProps<{}>, FormalSchoenenState> {
+export class Popularf extends React.Component<RouteComponentProps<{}>, PopularSchoenenState> {
     constructor() {
         super();
         this.state = {}

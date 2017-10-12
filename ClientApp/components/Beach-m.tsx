@@ -5,9 +5,9 @@ import { RouteComponentProps } from 'react-router';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import {ButtonToolbar, Button, Grid, Row, Col, Image, Thumbnail } from 'react-bootstrap';
-type CasualSchoenenState = {}
+type BeachSchoenenState = {}
 
-export class Casual extends React.Component<RouteComponentProps<{}>, CasualSchoenenState> {
+export class Beachm extends React.Component<RouteComponentProps<{}>, BeachSchoenenState> {
     constructor() {
         super();
         this.state = {}
@@ -15,13 +15,13 @@ export class Casual extends React.Component<RouteComponentProps<{}>, CasualSchoe
 
     public render() {
 
-        return <div> <h1> Casual </h1>
-            <Grid>
-            <Row>
+        return <div> <h1> Schoenen voor het strand</h1>
+        <Grid>
+        <Row>
             <Col xs={4} md={4}>
-            <h3>{Types.Shoes0.Name} </h3>
-            <a href='/detailpagina'><img src={Types.Shoes0.Image} width="250" height="250" /></a>
-            <h4>€{Types.Shoes0.Price}.00 </h4>
+            <h3>{Types.Shoes7.Name} </h3>
+            <a href='/detailpagina'><img src={Types.Shoes7.Image} width="250" height="250" /></a>
+            <h4>€{Types.Shoes7.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
                     <button> Lees meer!</button>
@@ -29,9 +29,9 @@ export class Casual extends React.Component<RouteComponentProps<{}>, CasualSchoe
             </li>
             </Col>
             <Col xs={4} md={4}>
-            <h3>{Types.Shoes4.Name} </h3>
-            <a href='/detailpagina'><img src={Types.Shoes4.Image} width="250" height="250" /></a>
-            <h4>€{Types.Shoes4.Price}.00 </h4>
+            <h3>{Types.Shoes8.Name} </h3>
+            <a href='/detailpagina'><img src={Types.Shoes8.Image} width="250" height="250" /></a>
+            <h4>€{Types.Shoes8.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
                     <button> Lees meer!</button>
@@ -39,9 +39,9 @@ export class Casual extends React.Component<RouteComponentProps<{}>, CasualSchoe
             </li>
             </Col>
             <Col xs={4} md={4}>
-            <h3>{Types.Shoes5.Name} </h3>
-            <a href='/detailpagina'><img src={Types.Shoes5.Image} width="250" height="250" /></a>
-            <h4>€{Types.Shoes5.Price}.00 </h4>
+            <h3>{Types.Shoes9.Name} </h3>
+            <a href='/detailpagina'><img src={Types.Shoes9.Image} width="250" height="250" /></a>
+            <h4>€{Types.Shoes9.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
                     <button> Lees meer!</button>
@@ -51,9 +51,9 @@ export class Casual extends React.Component<RouteComponentProps<{}>, CasualSchoe
             </Row>
             <Row>
             <Col xs={4} md={4}>
-            <h3>{Types.Shoes6.Name} </h3>
-            <a href='/detailpagina'><img src={Types.Shoes6.Image} width="250" height="250" /></a>
-            <h4>€{Types.Shoes6.Price}.00 </h4>
+            <h3>{Types.Shoes10.Name} </h3>
+            <a href='/detailpagina'><img src={Types.Shoes10.Image} width="250" height="250" /></a>
+            <h4>€{Types.Shoes10.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
                     <button> Lees meer!</button>
