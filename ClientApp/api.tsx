@@ -2,6 +2,7 @@ const ShoeAPI = {
     Shoes: [
       { 
         number: 1, 
+        price: 109.95,
         name: "Nike Air Force 1", 
         description: "...", 
         category: "Popular", 
@@ -9,7 +10,8 @@ const ShoeAPI = {
         image: "https://mosaic02.ztat.net/vgs/media/detail/NI/11/1A/08/0A/11/NI111A080-A11@12.jpg"
       },
       { 
-        number: 2, 
+        number: 2,
+        price: 89.95,         
         name: "Puma Heart Basket", 
         description: "...", 
         category: "Popular", 
@@ -18,6 +20,7 @@ const ShoeAPI = {
       },
       { 
         number: 3, 
+        price: 94.95,
         name: "Adidas Stan Smith",  
         description: "...",
         category: "Popular", 
@@ -26,6 +29,7 @@ const ShoeAPI = {
       },
       { 
         number: 4, 
+        price: 89.95,
         name: "Reebok Club C",  
         description: "...",
         category: "Popular", 
@@ -33,7 +37,8 @@ const ShoeAPI = {
         image: "https://mosaic02.ztat.net/vgs/media/detail/RE/01/2B/04/MA/11/RE012B04M-A11@12.jpg"
       },
       { 
-        number: 5, 
+        number: 5,
+        price: 169.95, 
         name: "Nike Air Max '97",  
         description: "...",
         category: "Casual", 
@@ -41,7 +46,8 @@ const ShoeAPI = {
         image: "https://mosaic02.ztat.net/vgs/media/detail/NI/11/1S/09/HQ/11/NI111S09H-Q11@12.jpg" 
       },
       { 
-        number: 6, 
+        number: 6,
+        price: 69.95, 
         name: "Converse All Star",  
         description: "...",
         category: "Casual", 
@@ -50,6 +56,7 @@ const ShoeAPI = {
       },
       { 
         number: 7, 
+        price: 89.95,
         name: "Zign Instappers",  
         description: "...",
         category: "Formal", 
@@ -57,7 +64,8 @@ const ShoeAPI = {
         image: "https://mosaic01.ztat.net/vgs/media/catalog1/ZI/11/1E/A1/GO/11/ZI111EA1G-O11@13.jpg"
       },
       { 
-        number: 8, 
+        number: 8,
+        price: 89.95, 
         name: "Zign Instappers",  
         description: "...",
         category: "Formal", 
@@ -65,7 +73,8 @@ const ShoeAPI = {
         image: "https://mosaic01.ztat.net/vgs/media/catalog1/ZI/11/1E/A1/GQ/11/ZI111EA1G-Q11@13.jpg"
       },
       { 
-        number: 9, 
+        number: 9,
+        price: 39.95, 
         name: "Only Veterschoenen",  
         description: "...",
         category: "Formal", 
@@ -74,6 +83,7 @@ const ShoeAPI = {
       },
       { 
         number: 10, 
+        price: 49.95,
         name: "Marco Tozzi Pumps",  
         description: "...",
         category: "Formal", 
@@ -82,6 +92,7 @@ const ShoeAPI = {
       },
       { 
         number: 11, 
+        price: 99.95,
         name: "Adidas Tennis Hu",  
         description: "...",
         category: "Casual", 
@@ -90,6 +101,7 @@ const ShoeAPI = {
       },
       { 
         number: 12, 
+        price: 99.95,
         name: "Asics Gel-Lyte III",  
         description: "...",
         category: "Casual", 
