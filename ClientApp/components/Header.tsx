@@ -16,31 +16,31 @@ export class Header extends React.Component<{}, {}> {
     <Navbar.Collapse>
       <Nav>
       <NavDropdown eventKey={1} title="Men" id="dropdown-categories">
-          <MenuItem eventKey={1.1}><NavLink to={ '/Popular-m' } activeClassName='active'>
-          Popular 
-                </NavLink></MenuItem>
-          <MenuItem eventKey={1.2}><NavLink to={ '/Casual-m' } activeClassName='active'>
-          Casual 
-                </NavLink></MenuItem>
-          <MenuItem eventKey={1.3}><NavLink to={ '/Formal-m' } activeClassName='active'>
-          Formal 
-                </NavLink></MenuItem>
-                <MenuItem eventKey={1.3}><NavLink to={ '/Beach-m' } activeClassName='active'>
-          Beach wear 
-                </NavLink></MenuItem>
+      <a href='/Popular-m'><MenuItem eventKey={1.1}><NavLink to={ '/Popular-m' } activeClassName='active'>
+      <div className='menu_link'>Popular</div> 
+                </NavLink></MenuItem></a>
+                <a href='/Casual-m'><MenuItem eventKey={1.2}><NavLink to={ '/Casual-m' } activeClassName='active'>
+                <div className='menu_link'>Casual</div> 
+                </NavLink></MenuItem></a>
+                <a href='/Formal-m'><MenuItem eventKey={1.3}><NavLink to={ '/Formal-m' } activeClassName='active'>
+                <div className='menu_link'>Formal</div> 
+                </NavLink></MenuItem></a>
+                <a href='/Beach-m'><MenuItem eventKey={1.3}><NavLink to={ '/Beach-m' } activeClassName='active'>
+                <div className='menu_link'>Beach wear</div> 
+                </NavLink></MenuItem></a>
           {/* <MenuItem divider />
           <MenuItem eventKey={1.4}>Placeholder</MenuItem> */}
         </NavDropdown>
         <NavDropdown eventKey={2} title="Women" id="dropdown-categories">
-          <MenuItem eventKey={2.1}><NavLink to={ '/Popular-f' } activeClassName='active'>
-          Popular 
-                </NavLink></MenuItem>
-          <MenuItem eventKey={2.2}><NavLink to={ '/Casual-f' } activeClassName='active'>
-          Casual 
-                </NavLink></MenuItem>
-          <MenuItem eventKey={2.3}><NavLink to={ '/Formal-f' } activeClassName='active'>
-          Formal 
-                </NavLink></MenuItem>
+        <a href='/Popular-f'><MenuItem eventKey={2.1}><NavLink to={ '/Popular-f' } activeClassName='active'>
+        <div className='menu_link'>Popular</div> 
+                </NavLink></MenuItem></a>
+                <a href='/Casual-f'><MenuItem eventKey={2.2}><NavLink to={ '/Casual-f' } activeClassName='active'>
+                <div className='menu_link'>Casual</div> 
+                </NavLink></MenuItem></a>
+          <a href='/Formal-f'><MenuItem eventKey={2.3}><NavLink to={ '/Formal-f' } activeClassName='active'>
+          <div className='menu_link'>Formal</div>
+                </NavLink></MenuItem></a>
           {/* <MenuItem divider />
           <MenuItem eventKey={2.4}>Separated link</MenuItem> */}
         </NavDropdown>
