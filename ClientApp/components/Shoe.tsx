@@ -15,7 +15,6 @@ const Shoe = (props: any) => {
   return (
     <div>
       <h1>{Shoe.name} (#{Shoe.number})</h1>
-      <h2>Position: {Shoe.position}</h2>
       <img src={Shoe.image}/> <br/> 
       <Link to='/product'>Back</Link>
     </div>
