@@ -31,18 +31,19 @@ const Shoe = (props: any) => {
   return (
     <div className='detail'>
             <Row>
-            <Col xs={4} md={4}>
+            <Col xs={3} md={3}/>
+            <Col xs={2} md={2}>
             <h3>{Shoe.name} </h3>
-            <h4><b>{Shoe.brand} </b> • [Price]</h4>
+            <h4><b>{Shoe.brand} </b> • €{Shoe.price}</h4>
             <Image src={Shoe.image} rounded responsive /><br/>
+            </Col>
+            <Col xs={4} md={4}>
+            <h4><br/><br/><br/><br/>{Shoe.description}</h4>
             <Button href='/confirmation'bsStyle="primary">Add to Cart</Button>&nbsp;
             <OverlayTrigger placement="top" overlay={tooltip}>
             <Button bsStyle="default" >Add to Wishlist</Button>
             </OverlayTrigger>
             </Col>
-            {/* <Col xs={4} md={4}>
-            <h4>{Shoe.description}</h4> 
-            </Col> */}
             </Row>
         </div>
   )
