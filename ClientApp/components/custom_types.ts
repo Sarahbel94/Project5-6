@@ -1,3 +1,11 @@
+export type Shoes = {
+    number: number,
+    name: string, 
+    category: string, 
+    brand: string ,
+    image: string
+}
+
 export type Schoenen = {
     id: number,
     Price: number,
@@ -9,7 +17,6 @@ export type Schoenen = {
     Description: string,
     Image: string
 
-   
 }
 export let Shoes0: Schoenen =
 {
