@@ -273,3 +273,63 @@ export let Shoes20: Schoenen =
     Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
     Image: "https://mosaic02.ztat.net/vgs/media/detail/CO/41/1A/00/23/02/CO411A002-302@19.1.jpg",
 }
+export let Shoes21: Schoenen =
+{
+    id: 22,
+    Name: "Zign Instappers",
+    Price: 90,
+    Size: 35,
+    Category: "Vrouwen",
+    Brand: "Zign",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic01.ztat.net/vgs/media/catalog1/ZI/11/1E/A1/GO/11/ZI111EA1G-O11@13.jpg",
+}
+export let Shoes22: Schoenen =
+{
+    id: 21,
+    Name: "Only Veterschoenen",
+    Price: 40,
+    Size: 35,
+    Category: "Vrouwen",
+    Brand: "Only",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic01.ztat.net/vgs/media/catalog1/OS/41/1C/A0/2Q/11/OS411CA02-Q11@13.jpg",
+}
+export let Shoes23: Schoenen =
+{
+    id: 21,
+    Name: "Marco Tozzi Pumps",
+    Price: 50,
+    Size: 35,
+    Category: "Vrouwen",
+    Brand: "Marco Tozzi",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic01.ztat.net/vgs/media/catalog1/M3/11/1B/0B/4Q/11/M3111B0B4-Q11@13.jpg",
+}
+export let Shoes24: Schoenen =
+{
+    id: 21,
+    Name: "Adidas Tennis Hu",
+    Price: 100,
+    Size: 35,
+    Category: "Vrouwen",
+    Brand: "Adidas",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic02.ztat.net/vgs/media/detail/AD/11/2B/0M/HM/11/AD112B0MH-M11@12.jpg",
+}
+export let Shoes25: Schoenen =
+{
+    id: 21,
+    Name: "Asics Gel-Lyte III",
+    Price: 100,
+    Size: 35,
+    Category: "Vrouwen",
+    Brand: "Asics",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic02.ztat.net/vgs/media/detail/A0/H1/5O/00/0M/11/A0H15O000-M11@12.jpg",
+}
