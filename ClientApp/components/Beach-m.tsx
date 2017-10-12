@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap-theme.css';
 import {ButtonToolbar, Button, Grid, Row, Col, Image, Thumbnail } from 'react-bootstrap';
 type BeachSchoenenState = {}
 
-export class Beach extends React.Component<RouteComponentProps<{}>, BeachSchoenenState> {
+export class Beachm extends React.Component<RouteComponentProps<{}>, BeachSchoenenState> {
     constructor() {
         super();
         this.state = {}

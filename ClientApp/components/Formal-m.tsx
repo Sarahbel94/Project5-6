@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap-theme.css';
 import {ButtonToolbar, Button, Grid, Row, Col, Image, Thumbnail } from 'react-bootstrap';
 type FormalSchoenenState = {}
 
-export class Formal extends React.Component<RouteComponentProps<{}>, FormalSchoenenState> {
+export class Formalm extends React.Component<RouteComponentProps<{}>, FormalSchoenenState> {
     constructor() {
         super();
         this.state = {}

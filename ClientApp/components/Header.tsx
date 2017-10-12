@@ -16,30 +16,33 @@ export class Header extends React.Component<{}, {}> {
     <Navbar.Collapse>
       <Nav>
       <NavDropdown eventKey={1} title="Men" id="dropdown-categories">
-          <MenuItem eventKey={1.1}><NavLink to={ '/Casual' } activeClassName='active'>
+          <MenuItem eventKey={1.1}><NavLink to={ '/Popular-m' } activeClassName='active'>
           Casual 
                 </NavLink></MenuItem>
-          <MenuItem eventKey={1.2}><NavLink to={ '/Beach' } activeClassName='active'>
+          <MenuItem eventKey={1.2}><NavLink to={ '/Casual-m' } activeClassName='active'>
           Beach 
                 </NavLink></MenuItem>
-          <MenuItem eventKey={1.3}><NavLink to={ '/Formal' } activeClassName='active'>
+          <MenuItem eventKey={1.3}><NavLink to={ '/Formal-m' } activeClassName='active'>
           Formal 
                 </NavLink></MenuItem>
-          <MenuItem divider />
-          <MenuItem eventKey={1.4}>Placeholder</MenuItem>
+                <MenuItem eventKey={1.3}><NavLink to={ '/Beach-m' } activeClassName='active'>
+          Beach wear 
+                </NavLink></MenuItem>
+          {/* <MenuItem divider />
+          <MenuItem eventKey={1.4}>Placeholder</MenuItem> */}
         </NavDropdown>
         <NavDropdown eventKey={2} title="Women" id="dropdown-categories">
-          <MenuItem eventKey={2.1}><NavLink to={ '/Casual' } activeClassName='active'>
+          <MenuItem eventKey={2.1}><NavLink to={ '/Popular-f' } activeClassName='active'>
+          Popular 
+                </NavLink></MenuItem>
+          <MenuItem eventKey={2.2}><NavLink to={ '/Casual-f' } activeClassName='active'>
           Casual 
                 </NavLink></MenuItem>
-          <MenuItem eventKey={2.2}><NavLink to={ '/Beach' } activeClassName='active'>
-          Beach 
-                </NavLink></MenuItem>
-          <MenuItem eventKey={2.3}><NavLink to={ '/Formal' } activeClassName='active'>
+          <MenuItem eventKey={2.3}><NavLink to={ '/Formal-f' } activeClassName='active'>
           Formal 
                 </NavLink></MenuItem>
-          <MenuItem divider />
-          <MenuItem eventKey={2.4}>Separated link</MenuItem>
+          {/* <MenuItem divider />
+          <MenuItem eventKey={2.4}>Separated link</MenuItem> */}
         </NavDropdown>
       </Nav>
       <Nav pullRight>
