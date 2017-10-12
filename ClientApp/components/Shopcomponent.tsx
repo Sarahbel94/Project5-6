@@ -13,7 +13,8 @@ import { ButtonToolbar,
          Tooltip,
          OverlayTrigger,
          Modal,
-         Popover } from 'react-bootstrap';
+         Popover,
+         Media } from 'react-bootstrap';
 
 // The Shoe looks up the Shoe using the number parsed from
 // the URL's pathname. If no Shoe is found with the given
@@ -21,33 +22,39 @@ import { ButtonToolbar,
 const tooltip = (
   <Tooltip id="tooltip"><strong>Will be added in a later sprint</strong></Tooltip>
 );
-const Shoe = (props: any) => {
+const Shopcomponent = (props: any) => {
   const Shoe = ShoeAPI.get(
     parseInt(props.match.params.number, 10)
   )
   if (!Shoe) {
     return <div>Sorry, but the Shoe was not found</div>
   }
-  var landingpage = "/shoppingcart/" + Shoe.number;
   return (
     <div className='detail'>
             <Row>
             <Col xs={3} md={3}/>
-            <Col xs={2} md={2}>
-            <h3>{Shoe.name} </h3>
-            <h4><b>{Shoe.brand} </b> • €{Shoe.price}</h4>
-            <Image src={Shoe.image} rounded responsive /><br/>
-            </Col>
-            <Col xs={4} md={4}>
-            <h4><br/><br/><br/><br/>{Shoe.description}</h4>
-            <Button href={landingpage} bsStyle="primary">Add to Cart</Button>&nbsp;
-            <OverlayTrigger placement="top" overlay={tooltip}>
-            <Button bsStyle="default" >Add to Wishlist</Button>
-            </OverlayTrigger>
+            <Col xs={6} md={6}>
+            <Media>
+            <Media.Left>
+               <img width={150} height={150} src={Shoe.image} alt="Image"/>
+             </Media.Left>
+             <Media.Body>
+               <Media.Heading>{Shoe.name} • €{Shoe.price}</Media.Heading>
+               <p>{Shoe.description}</p>
+             </Media.Body>
+           </Media>
             </Col>
             </Row>
+            <Row>
+            <Col xs={3} md={3}/>
+            <Col xs={6} md={6}>
+            <OverlayTrigger placement="top" overlay={tooltip}>
+            <Button bsStyle="default" >Checkout</Button>
+            </OverlayTrigger>
+            </Col>
+            </Row> 
         </div>
   )
 }
 
-export default Shoe
+export default Shopcomponent

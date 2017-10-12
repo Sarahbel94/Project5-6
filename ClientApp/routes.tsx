@@ -11,6 +11,7 @@ import { Wishlist } from './components/Wishlist';
 
 
 
+import Shoppingcart from './components/shoppingcart';
 import Product from './components/product';
 
 
@@ -53,6 +54,6 @@ export const routes =
     
     
     
-    
+    <Route path='/shoppingcart' component={ Shoppingcart } />
     <Route path='/product' component={ Product } />
 </Layout>;
