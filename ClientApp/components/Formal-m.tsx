@@ -15,7 +15,7 @@ export class Formalm extends React.Component<RouteComponentProps<{}>, FormalScho
 
     public render() {
 
-        return <div> <h1> Formal</h1>
+        return <div> <h1> Formal wear</h1>
         <Grid>
         <Row>
             <Col xs={4} md={4}>
@@ -24,7 +24,7 @@ export class Formalm extends React.Component<RouteComponentProps<{}>, FormalScho
                 <h4>€{Types.Shoes12.Price}.00 </h4>
                 <li>
                     <NavLink to={'/detailpagina'} activeClassName='active'>
-                        <button> Lees meer!</button>
+                        <button> Read more!</button>
                     </NavLink>
                 </li>
             </Col>
@@ -34,7 +34,7 @@ export class Formalm extends React.Component<RouteComponentProps<{}>, FormalScho
                 <h4>€{Types.Shoes13.Price}.00 </h4>
                 <li>
                     <NavLink to={'/detailpagina'} activeClassName='active'>
-                        <button> Lees meer!</button>
+                        <button> Read more!</button>
                     </NavLink>
                 </li>
             </Col>
@@ -44,7 +44,7 @@ export class Formalm extends React.Component<RouteComponentProps<{}>, FormalScho
                 <h4>€{Types.Shoes14.Price}.00 </h4>
                 <li>
                     <NavLink to={'/detailpagina'} activeClassName='active'>
-                        <button> Lees meer!</button>
+                        <button> Read more!</button>
                     </NavLink>
                 </li>
             </Col>
@@ -56,7 +56,7 @@ export class Formalm extends React.Component<RouteComponentProps<{}>, FormalScho
                 <h4>€{Types.Shoes11.Price}.00 </h4>
                 <li>
                     <NavLink to={'/detailpagina'} activeClassName='active'>
-                        <button> Lees meer!</button>
+                        <button> Read more!</button>
                     </NavLink>
                 </li>
                 </Col>

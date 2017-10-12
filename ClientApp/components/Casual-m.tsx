@@ -15,7 +15,7 @@ export class Casualm extends React.Component<RouteComponentProps<{}>, CasualScho
 
     public render() {
 
-        return <div> <h1> Casual </h1>
+        return <div> <h1> Casual wear </h1>
             <Grid>
             <Row>
             <Col xs={4} md={4}>
@@ -24,7 +24,7 @@ export class Casualm extends React.Component<RouteComponentProps<{}>, CasualScho
             <h4>€{Types.Shoes0.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>
@@ -34,7 +34,7 @@ export class Casualm extends React.Component<RouteComponentProps<{}>, CasualScho
             <h4>€{Types.Shoes4.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>
@@ -44,7 +44,7 @@ export class Casualm extends React.Component<RouteComponentProps<{}>, CasualScho
             <h4>€{Types.Shoes5.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>
@@ -56,7 +56,7 @@ export class Casualm extends React.Component<RouteComponentProps<{}>, CasualScho
             <h4>€{Types.Shoes6.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>

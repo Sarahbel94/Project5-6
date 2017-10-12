@@ -113,14 +113,14 @@ export let Shoes7: Schoenen =
 export let Shoes8: Schoenen =
 {
     id: 9,
-    Name: "DOBRY",
-    Price: 50,
+    Name: "Setta sandal",
+    Price: 55,
     Size: 42,
     Category: "Heren",
     Brand: "ZIGN",
     Color: "bruin",
     Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
-    Image: "https://www.zalando.nl/zign-teensandalen-dobry-zi112ga03-o13.html",
+    Image: "https://www.kimono-yukata-market.com/upload/save_image/06121638_593e44f7da5f5.jpg",
 }
 export let Shoes9: Schoenen =
 {
