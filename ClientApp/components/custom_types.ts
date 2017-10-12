@@ -120,14 +120,14 @@ export let Shoes7: Schoenen =
 export let Shoes8: Schoenen =
 {
     id: 9,
-    Name: "DOBRY",
-    Price: 50,
+    Name: "Setta sandal",
+    Price: 55,
     Size: 42,
     Category: "Heren",
     Brand: "ZIGN",
     Color: "bruin",
     Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
-    Image: "https://www.zalando.nl/zign-teensandalen-dobry-zi112ga03-o13.html",
+    Image: "https://www.kimono-yukata-market.com/upload/save_image/06121638_593e44f7da5f5.jpg",
 }
 export let Shoes9: Schoenen =
 {
@@ -200,4 +200,76 @@ export let Shoes14: Schoenen =
     Color: "zwart",
     Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
     Image: "https://mosaic01.ztat.net/vgs/media/pdp-gallery/PI/91/2A/A4/5Q/11/PI912AA45-Q11@12.jpg",
+}
+export let Shoes15: Schoenen =
+{
+    id: 16,
+    Name: "Nike Air Force 1",
+    Price: 40,
+    Size: 45,
+    Category: "Vrouwen",
+    Brand: "Nike",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic02.ztat.net/vgs/media/detail/NI/11/1A/08/0A/11/NI111A080-A11@12.jpg",
+}
+export let Shoes16: Schoenen =
+{
+    id: 17,
+    Name: "Puma Heart Basket",
+    Price: 39,
+    Size: 45,
+    Category: "Vrouwen",
+    Brand: "Puma",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic02.ztat.net/vgs/media/detail/PU/11/1S/04/YB/11/PU111S04Y-B11@14.jpg",
+}
+export let Shoes17: Schoenen =
+{
+    id: 18,
+    Name: "Adidas Stan Smith",
+    Price: 39,
+    Size: 38,
+    Category: "Vrouwen",
+    Brand: "Adidas",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic02.ztat.net/vgs/media/detail/AD/11/2B/0N/2G/11/AD112B0N2-G11@12.jpg",
+}
+export let Shoes18: Schoenen =
+{
+    id: 19,
+    Name: "Reebok Club C",
+    Price: 60,
+    Size: 55,
+    Category: "Vrouwen",
+    Brand: "Reebok",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic02.ztat.net/vgs/media/detail/RE/01/2B/04/MA/11/RE012B04M-A11@12.jpg",
+}
+export let Shoes19: Schoenen =
+{
+    id: 20,
+    Name: "Nike Air Max '97",
+    Price: 40,
+    Size: 40,
+    Category: "Vrouwen",
+    Brand: "Nike",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic02.ztat.net/vgs/media/detail/NI/11/1S/09/HQ/11/NI111S09H-Q11@12.jpg",
+}
+export let Shoes20: Schoenen =
+{
+    id: 21,
+    Name: "Converse All Star",
+    Price: 20,
+    Size: 35,
+    Category: "Vrouwen",
+    Brand: "Converse",
+    Color: "zwart",
+    Description: "Materiaal buitenlaag:Leer, Voering:Combinatie van leren- en textielvoering, Binnenzool:Textiel, Zool:Kunststof, Voeringdikte:Zeer licht gevoerd",
+    Image: "https://mosaic02.ztat.net/vgs/media/detail/CO/41/1A/00/23/02/CO411A002-302@19.1.jpg",
 }

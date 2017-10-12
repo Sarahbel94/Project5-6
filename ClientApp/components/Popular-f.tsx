@@ -15,47 +15,67 @@ export class Popularf extends React.Component<RouteComponentProps<{}>, PopularSc
 
     public render() {
 
-        return <div> <h1> Formal</h1>
+        return <div> <h1> Popular womans wear</h1>
         <Grid>
         <Row>
             <Col xs={4} md={4}>
-                <h3>{Types.Shoes12.Name} </h3>
-                <a href='/detailpagina'><img src={Types.Shoes12.Image} width="250" height="250" /></a>
-                <h4>€{Types.Shoes12.Price}.00 </h4>
+                <h3>{Types.Shoes15.Name} </h3>
+                <a href='/product/1'><img src={Types.Shoes15.Image} width="250" height="250" /></a>
+                <h4>€{Types.Shoes15.Price}.00 </h4>
                 <li>
-                    <NavLink to={'/detailpagina'} activeClassName='active'>
-                        <button> Lees meer!</button>
+                    <NavLink to={'/product/1'} activeClassName='active'>
+                        <button> read more!</button>
                     </NavLink>
                 </li>
             </Col>
             <Col xs={4} md={4}>
-                <h3>{Types.Shoes13.Name} </h3>
-                <a href='/detailpagina'><img src={Types.Shoes13.Image} width="250" height="250" /></a>
-                <h4>€{Types.Shoes13.Price}.00 </h4>
+                <h3>{Types.Shoes16.Name} </h3>
+                <a href='/product/2'><img src={Types.Shoes16.Image} width="250" height="250" /></a>
+                <h4>€{Types.Shoes16.Price}.00 </h4>
                 <li>
-                    <NavLink to={'/detailpagina'} activeClassName='active'>
-                        <button> Lees meer!</button>
+                    <NavLink to={'/product/2'} activeClassName='active'>
+                        <button> Read more!</button>
                     </NavLink>
                 </li>
             </Col>
             <Col xs={4} md={4}>
-                <h3>{Types.Shoes14.Name} </h3>
-                <a href='/detailpagina'><img src={Types.Shoes14.Image} width="250" height="250" /></a>
-                <h4>€{Types.Shoes14.Price}.00 </h4>
+                <h3>{Types.Shoes17.Name} </h3>
+                <a href='/product/3'><img src={Types.Shoes17.Image} width="250" height="250" /></a>
+                <h4>€{Types.Shoes17.Price}.00 </h4>
                 <li>
-                    <NavLink to={'/detailpagina'} activeClassName='active'>
-                        <button> Lees meer!</button>
+                    <NavLink to={'/product/3'} activeClassName='active'>
+                        <button> Read more!</button>
                     </NavLink>
                 </li>
             </Col>
             </Row>
             <Row>
             <Col xs={4} md={4}>
-                <h3>{Types.Shoes11.Name} </h3>
-                <a href='/detailpagina'><img src={Types.Shoes11.Image} width="250" height="250" /></a>
-                <h4>€{Types.Shoes11.Price}.00 </h4>
+                <h3>{Types.Shoes18.Name} </h3>
+                <a href='/product/4'><img src={Types.Shoes18.Image} width="250" height="250" /></a>
+                <h4>€{Types.Shoes18.Price}.00 </h4>
                 <li>
-                    <NavLink to={'/detailpagina'} activeClassName='active'>
+                    <NavLink to={'/product/4'} activeClassName='active'>
+                        <button> Lees meer!</button>
+                    </NavLink>
+                </li>
+                </Col>
+                <Col xs={4} md={4}>
+                <h3>{Types.Shoes19.Name} </h3>
+                <a href='/product/5'><img src={Types.Shoes19.Image} width="250" height="250" /></a>
+                <h4>€{Types.Shoes19.Price}.00 </h4>
+                <li>
+                    <NavLink to={'/product/5'} activeClassName='active'>
+                        <button> Lees meer!</button>
+                    </NavLink>
+                </li>
+                </Col>
+                <Col xs={4} md={4}>
+                <h3>{Types.Shoes20.Name} </h3>
+                <a href='/product/6'><img src={Types.Shoes20.Image} width="250" height="250" /></a>
+                <h4>€{Types.Shoes20.Price}.00 </h4>
+                <li>
+                    <NavLink to={'/product/6'} activeClassName='active'>
                         <button> Lees meer!</button>
                     </NavLink>
                 </li>

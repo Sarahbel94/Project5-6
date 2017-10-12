@@ -15,7 +15,7 @@ export class Beachm extends React.Component<RouteComponentProps<{}>, BeachSchoen
 
     public render() {
 
-        return <div> <h1> Schoenen voor het strand</h1>
+        return <div> <h1> Beach wear</h1>
         <Grid>
         <Row>
             <Col xs={4} md={4}>
@@ -24,7 +24,7 @@ export class Beachm extends React.Component<RouteComponentProps<{}>, BeachSchoen
             <h4>€{Types.Shoes7.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>
@@ -34,7 +34,7 @@ export class Beachm extends React.Component<RouteComponentProps<{}>, BeachSchoen
             <h4>€{Types.Shoes8.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>
@@ -44,7 +44,7 @@ export class Beachm extends React.Component<RouteComponentProps<{}>, BeachSchoen
             <h4>€{Types.Shoes9.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>
@@ -56,7 +56,7 @@ export class Beachm extends React.Component<RouteComponentProps<{}>, BeachSchoen
             <h4>€{Types.Shoes10.Price}.00 </h4>
             <li>
                 <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>

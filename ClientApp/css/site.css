@@ -91,3 +91,13 @@ h3, .h3, p {
 .confirm_placeholder{
 	margin: auto;
 }
+.footer_container{
+	border-top: 1px solid Black;
+	margin-top: 10px;
+}
+.inner_footer{
+	float: right;
+	margin: 5px;
+	font-size: 10px;
+	padding-bottom: 15px;
+}
