@@ -1,9 +1,12 @@
 import * as React from 'react';
-import {Navbar, Nav, NavItem, NavDropdown, MenuItem, DropdownButton, Button} from 'react-bootstrap';
+import {Navbar, Nav, NavItem, NavDropdown, Tooltip, MenuItem, DropdownButton, Button, OverlayTrigger} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import { Link, NavLink } from 'react-router-dom';
 
+const tooltip = (
+  <Tooltip id="tooltip"><strong>Will be added in a later sprint</strong></Tooltip>
+);
 export class Header extends React.Component<{}, {}> {
     public render() {
         return   <Navbar inverse collapseOnSelect>
@@ -57,7 +60,9 @@ export class Header extends React.Component<{}, {}> {
           <MenuItem eventKey={4.3}>Log Out</MenuItem>
          
         </NavDropdown>
-        <Button href="/Confirmation" bsStyle="default" >Shopping Cart</Button>
+        <OverlayTrigger placement="bottom" overlay={tooltip}>
+        <Button bsStyle="default" >Shopping Cart</Button>
+        </OverlayTrigger>
       </Nav>
     </Navbar.Collapse>
   </Navbar>;
