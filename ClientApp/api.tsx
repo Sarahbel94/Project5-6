@@ -109,9 +109,9 @@ const ShoeAPI = {
         image: "https://mosaic02.ztat.net/vgs/media/detail/A0/H1/5O/00/0M/11/A0H15O000-M11@12.jpg"
       }     
     ],
-    all: function() { return this.Shoes},
+    all: function() { return this.Shoes}, //This function loads ALL shoes from the API.
     get: function(id:any) {
-      const isShoe = (p:any) => p.number === id
+      const isShoe = (p:any) => p.number === id //This function loads a SPECIFIC shoe from the API.
       return this.Shoes.find(isShoe)
     }
   }
