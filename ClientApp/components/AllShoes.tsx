@@ -8,10 +8,12 @@ const AllShoes = () => (
   <div>
     <ul>
       {
-        ShoeAPI.all().map(p => (
-          <li key={p.number}>
-            <Link to={`/product/${p.number}`}>{p.name}</Link>
-          </li>
+        ShoeAPI.all().map(p => ( 
+            <Link to={`/product/${p.number}`}>{p.name}
+                                              <br/>
+                                              <img src={p.image}/>
+                                              <br/> 
+                                              </Link>
         ))
       }
     </ul>
