@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap-theme.css';
 import {ButtonToolbar, Button, Grid, Row, Col, Image, Thumbnail } from 'react-bootstrap';
 type CasualSchoenenState = {}
 
-export class Casual extends React.Component<RouteComponentProps<{}>, CasualSchoenenState> {
+export class Casualm extends React.Component<RouteComponentProps<{}>, CasualSchoenenState> {
     constructor() {
         super();
         this.state = {}

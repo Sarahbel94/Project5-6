@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap-theme.css';
 import {ButtonToolbar, Button, Grid, Row, Col, Image, Thumbnail } from 'react-bootstrap';
 type PopularSchoenenState = {}
 
-export class Popular extends React.Component<RouteComponentProps<{}>, PopularSchoenenState> {
+export class Popularf extends React.Component<RouteComponentProps<{}>, PopularSchoenenState> {
     constructor() {
         super();
         this.state = {}

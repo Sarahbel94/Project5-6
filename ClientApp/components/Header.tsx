@@ -17,10 +17,10 @@ export class Header extends React.Component<{}, {}> {
       <Nav>
       <NavDropdown eventKey={1} title="Men" id="dropdown-categories">
           <MenuItem eventKey={1.1}><NavLink to={ '/Popular-m' } activeClassName='active'>
-          Casual 
+          Popular 
                 </NavLink></MenuItem>
           <MenuItem eventKey={1.2}><NavLink to={ '/Casual-m' } activeClassName='active'>
-          Beach 
+          Casual 
                 </NavLink></MenuItem>
           <MenuItem eventKey={1.3}><NavLink to={ '/Formal-m' } activeClassName='active'>
           Formal 
