@@ -15,48 +15,48 @@ export class Casualf extends React.Component<RouteComponentProps<{}>, CasualScho
 
     public render() {
 
-        return <div> <h1> Casual </h1>
+        return <div> <h1> Casual wear</h1>
             <Grid>
             <Row>
             <Col xs={4} md={4}>
-            <h3>{Types.Shoes0.Name} </h3>
-            <a href='/detailpagina'><img src={Types.Shoes0.Image} width="250" height="250" /></a>
-            <h4>€{Types.Shoes0.Price}.00 </h4>
+            <h3>{Types.Shoes19.Name} </h3>
+            <a href='/product/5'><img src={Types.Shoes19.Image} width="250" height="250" /></a>
+            <h4>€{Types.Shoes19.Price}.00 </h4>
             <li>
-                <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                <NavLink to={'/product/5'} activeClassName='active'>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>
             <Col xs={4} md={4}>
-            <h3>{Types.Shoes4.Name} </h3>
-            <a href='/detailpagina'><img src={Types.Shoes4.Image} width="250" height="250" /></a>
-            <h4>€{Types.Shoes4.Price}.00 </h4>
+            <h3>{Types.Shoes20.Name} </h3>
+            <a href='/product/6'><img src={Types.Shoes20.Image} width="250" height="250" /></a>
+            <h4>€{Types.Shoes20.Price}.00 </h4>
             <li>
-                <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                <NavLink to={'/product/6'} activeClassName='active'>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>
             <Col xs={4} md={4}>
-            <h3>{Types.Shoes5.Name} </h3>
-            <a href='/detailpagina'><img src={Types.Shoes5.Image} width="250" height="250" /></a>
-            <h4>€{Types.Shoes5.Price}.00 </h4>
+            <h3>{Types.Shoes24.Name} </h3>
+            <a href='/product/11'><img src={Types.Shoes24.Image} width="250" height="250" /></a>
+            <h4>€{Types.Shoes24.Price}.00 </h4>
             <li>
-                <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                <NavLink to={'/product/11'} activeClassName='active'>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>
             </Row>
             <Row>
             <Col xs={4} md={4}>
-            <h3>{Types.Shoes6.Name} </h3>
-            <a href='/detailpagina'><img src={Types.Shoes6.Image} width="250" height="250" /></a>
-            <h4>€{Types.Shoes6.Price}.00 </h4>
+            <h3>{Types.Shoes25.Name} </h3>
+            <a href='/product/12'><img src={Types.Shoes25.Image} width="250" height="250" /></a>
+            <h4>€{Types.Shoes25.Price}.00 </h4>
             <li>
-                <NavLink to={'/detailpagina'} activeClassName='active'>
-                    <button> Lees meer!</button>
+                <NavLink to={'/product/12'} activeClassName='active'>
+                    <button> Read more!</button>
                 </NavLink>
             </li>
             </Col>
