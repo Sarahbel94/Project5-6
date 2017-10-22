@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Test.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")]  
     public class SampleDataController : Controller
     {
         private static string[] Summaries = new[]
